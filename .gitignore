@@ -1,0 +1,22 @@
+# Virtual environment
+dev/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
